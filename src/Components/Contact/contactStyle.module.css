@@ -1,0 +1,76 @@
+.contactTitle{
+    font-size: 40px;
+}
+.contactColor{
+    color: #2c3e50;
+}
+.contactIcon{
+    position: relative;
+}
+
+.contactIcon{
+    position: relative;
+}
+.contactIcon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    left: 40%;
+    top: 65%;
+}
+.contactIcon:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    right: 40%;
+    top: 65%;
+}
+
+.Input{
+    border: none!important;
+    border-bottom: 1px solid #000!important;
+}
+
+.Input:focus{
+   box-shadow: none!important;
+}
+.contactItems{
+    background-color: #2c3e50;
+}
+
+
+.socialIcon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: relative;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 1s;
+   
+}
+
+.socialIcon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    transition: color 1.5s;
+}
+
+.socialIcon:hover{
+    background-color: #fff;
+}
+
+.socialIcon:hover i{
+    color: #000!important;
+}

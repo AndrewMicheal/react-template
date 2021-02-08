@@ -1,0 +1,44 @@
+.portfolioTitle{
+    font-size: 40px;
+}
+.portfolioColor{
+    color: #2c3e50;
+}
+.portfolioIcon{
+    position: relative;
+}
+.portfolioIcon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    left: 40%;
+    top: 65%;
+}
+.portfolioIcon:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    right: 40%;
+    top: 65%;
+}
+
+.portfolioOverlay{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+.portfolioOverlay:hover{
+    opacity: 1;
+}

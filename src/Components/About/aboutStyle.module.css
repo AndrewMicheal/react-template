@@ -1,0 +1,29 @@
+.about{
+    background-color: #1abc9c;
+}
+.title{
+    font-size: 45px;
+}
+.aboutIcon{
+    position: relative;
+}
+.aboutIcon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #fff;
+    left: 40%;
+    top: 65%;
+}
+.aboutIcon:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #fff;
+    right: 40%;
+    top: 65%;
+}
